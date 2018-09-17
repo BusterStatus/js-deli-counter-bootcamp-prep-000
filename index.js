@@ -8,6 +8,6 @@ function nowServing (currentLineOfPeople) {
   if (currentLineOfPeople.length > 0) {
     return currentLineOfPeople.pop();
   } else {
-    return "There is nobody waiting to be served!"
+    return "There is nobody waiting to be served!";
   }
 }

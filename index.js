@@ -18,7 +18,7 @@ function currentLine (currentLineOfPeople) {
   for (var i = 0; i < currentLineOfPeople.length; i++) {
     if (currentLineOfPeople.length > 0) {
     var person = (i+1) + ". " + currentLineOfPeople[i];
-    message = message + person;
+    message = message + person + ", ";
     }
     else {
       message = "The line is currently empty.";

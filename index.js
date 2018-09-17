@@ -13,5 +13,15 @@ function nowServing (currentLineOfPeople) {
 }
 
 function currentLine (currentLineOfPeople) {
-  
+  var message;
+  for (i = 0; i < currentLineOfPeople.length; i++) {
+    if (currentLineOfPeople > 0) {
+    message = "The line is currently: ";
+    var person = (i+1) + ". " + currentLineOfPeople[i];
+    message = message + person;
+    } else {
+      message = "The line is currently empty.";
+    }
+  }
+  return message;
 }

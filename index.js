@@ -4,3 +4,7 @@ function takeANumber (currentLineOfPeople, newPersonName) {
   return welcomeMessage;
 }
 
+function nowServing (currentLineOfPeople) {
+  currentLineOfPeople.pop();
+  return currentLineOfPeople;
+}

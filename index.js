@@ -7,7 +7,7 @@ function takeANumber (currentLineOfPeople, newPersonName) {
 function nowServing (currentLineOfPeople) {
   if (currentLineOfPeople.length > 0) {
     var currentlyServing = currentLineOfPeople.shift();
-    return "Currently serving " + currentlyServing;
+    return "Currently serving " + currentlyServing + ".";
   } else {
     return "There is nobody waiting to be served!";
   }

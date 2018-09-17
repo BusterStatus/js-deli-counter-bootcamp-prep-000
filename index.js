@@ -11,3 +11,7 @@ function nowServing (currentLineOfPeople) {
     return "There is nobody waiting to be served!";
   }
 }
+
+function currentLine (currentLineOfPeople) {
+  
+}

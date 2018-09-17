@@ -3,3 +3,4 @@ function takeANumber (currentLineOfPeople, newPersonName) {
   var welcomeMessage = "Welcome, " + newPersonName + ". You are number " + currentLineOfPeople.length + "in line.";
   return welcomeMessage;
 }
+

@@ -5,6 +5,8 @@ function takeANumber (currentLineOfPeople, newPersonName) {
 }
 
 function nowServing (currentLineOfPeople) {
-  currentLineOfPeople.pop();
+  if (currentLineOfPeople.length > 0) {
+    currentLineOfPeople.pop();
   return currentLineOfPeople;
 }
+

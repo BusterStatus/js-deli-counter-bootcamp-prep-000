@@ -17,7 +17,7 @@ function currentLine (currentLineOfPeople) {
   var message = "The line is currently: ";
     if (currentLineOfPeople.length > 0) {
       for (var i = 0; i < currentLineOfPeople.length; i++) {
-        var person = (i+1) + ". " + currentLineOfPeople[i];
+        var person = (i + 1) + ". " + currentLineOfPeople[i];
         if (i + 1 < currentLineOfPeople.length) {
         message = message + person + ", ";
         }

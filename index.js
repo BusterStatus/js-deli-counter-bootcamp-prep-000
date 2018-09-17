@@ -20,7 +20,7 @@ function currentLine (currentLineOfPeople) {
     var person = (i+1) + ". " + currentLineOfPeople[i];
     message = message + person + ", ";
     }
-    else {
+    elseif () {
       message = "The line is currently empty.";
     }
   }
